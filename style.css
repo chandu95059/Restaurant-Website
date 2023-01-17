@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    font-family: 'Poppins';
+    
+}
+.navbar{
+    width: 95%;
+    /*border: 5px solid lightskyblue;*/
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.navbar-items{
+    display: flex;
+}
+
+.menu-head{
+    display: flex;
+    justify-content: center;
+}
+
+.main-course{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-course-items{
+    width: 75px;
+}
+
+.course{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.main-course-items{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    
+
+}
+
+#tiffin-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tiffin-item{
+    width: 300px;
+    border: solid 1px lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+    transform: 200ms;
+    margin: 5px;
+}
+.tiffin-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tiffin{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.tiffin-item:hover{
+    transform: rotate(4deg);
+    width: 360px;
+    border-radius: 22px;
+    background-color: lightblue;
+}
+
+
+#lunch-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.lunch{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.lunch-item{
+    width: 300px;
+    border: solid 1px lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+    transform: 200ms;
+    margin: 5px;
+}
+
+.lunch-item:hover{
+    transform: rotate(4deg);
+    width: 360px;
+    border-radius: 22px;
+    background-color: green;
+}
+
+
+#non-veg-starters{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.starters_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.starters_1-item{
+    width: 300px;
+    border: solid 1px lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+    transform: 200ms;
+    margin: 5px;
+}
+
+.starters_1-item:hover{
+    transform: rotate(-4deg);
+    width: 360px;
+    border-radius: 22px;
+    background-color: yellowgreen;
+}
